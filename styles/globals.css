@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #8eeeee;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align:center;
+
+}
+
+nav{
+  margin: 5px;
+  padding:15px;
+}
+nav a:hover {
+  color:whitesmoke;
+  font-weight: bold;
+}
+main{
+  align-content:center;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+table, tr, th, td {
+  
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  width: 50%;
+  margin:auto;
+}
+h1 {
+  text-align:center;
+}
+
+input {
+  text-align:center;
+}
