@@ -44,7 +44,7 @@ const Home: React.FC = () => {
       </section>
 
       <footer className={styles['page-footer']}>
-        <p>© 2023 WeatherWiz. All rights reserved.</p>
+        <p>© 2024 WeatherWiz. All rights reserved.</p>
       </footer>
     </div>
   );

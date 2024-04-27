@@ -1,4 +1,5 @@
 const OpenAI = require("openai"); // Use require instead of import
+//make sure to install dotenv package for nextjs using npm: npm install @next/env
 const dotenv = require('dotenv'); // Import dotenv module
 dotenv.config({path:'../.env'}); // Configure dotenv
 
