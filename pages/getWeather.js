@@ -10,9 +10,11 @@ const cors = require('cors');
 // Import the dotenv module to access the environment variables from the .env file
 require('dotenv').config({path: '../.env'});
 
+// Access the environment variable from the .env file
 const weatherAPIkey = process.env.OWM_API_KEY;
 const countryCode = 'US';
 
+// Create an Express app
 const app = express();
 const PORT = 3001;
 
