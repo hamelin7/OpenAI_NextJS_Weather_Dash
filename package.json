@@ -29,5 +29,10 @@
     "eslint": "^8.44.0",
     "eslint-config-next": "^14.0.1",
     "typescript": "^5.1.6"
-  }
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  } 
 }
